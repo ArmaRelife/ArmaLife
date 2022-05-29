@@ -1,0 +1,29 @@
+GameProject {
+ ID "ArmaLife"
+ GUID "5964C1A6089F5849"
+ TITLE "ArmaLife"
+ Dependencies {
+  "5614BBCCBB55ED1C" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   ScriptProjectManagerSettings ScriptProjectManagerSettings "{AC4BE58770485E4B}" {
+    Modules {
+     ScriptModulePathClass armalife {
+      Paths {
+       "{5BE22D4A02273A1F}scripts"
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
