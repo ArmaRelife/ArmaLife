@@ -1,0 +1,15 @@
+ARL_ArmaLifeGameMode ArmaLifeGameModeEntity : "{9967F5DBE8EC2E9C}Prefabs/ARL_ArmaLifeGameMode.et" {
+ components {
+  ARL_RespawnHandlerComponent "{597D72BA19AEC207}" {
+  }
+  SCR_BaseScoringSystemComponent "{597D72BA20936C7E}" {
+  }
+  SCR_RespawnSystemComponent "{597D72BA16620518}" {
+  }
+  SCR_RespawnTimerComponent "{597D72BA2B2E460D}" {
+  }
+  RplComponent "{597D72BA0EE6CAEC}" {
+  }
+ }
+ coords 0.562 0 0.038
+}

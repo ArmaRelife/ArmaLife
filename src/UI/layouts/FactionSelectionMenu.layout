@@ -1,0 +1,24 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  TextWidgetClass "{597D58E23CA6C1B5}" {
+   Name "TestText"
+   Slot FrameWidgetSlot "{597D58E23CA6C186}" {
+    PositionX 828.515
+    OffsetLeft 828.515
+    PositionY 486.426
+    OffsetTop 486.426
+    SizeX 259.02
+    OffsetRight -1087.54
+    SizeY 77.705
+    OffsetBottom -564.131
+    SizeToContent 1
+   }
+   Text "This is a test"
+   "Font Size" 48
+   "Min Font Size" 48
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+  }
+ }
+}

@@ -2,7 +2,9 @@
 class ARL_ArmaLifeGameModeClass: SCR_BaseGameModeClass 
 {
 };
+/// @ingroup GameMode
 
+//------------------------------------------------------------------------------------------------
 class ARL_ArmaLifeGameMode : SCR_BaseGameMode
 {
 	override void EOnInit(IEntity owner) {
@@ -11,4 +13,4 @@ class ARL_ArmaLifeGameMode : SCR_BaseGameMode
 		//Override the respawn handler
 		this.m_pRespawnHandlerComponent = SCR_RespawnHandlerComponent.Cast(owner.FindComponent(ARL_RespawnHandlerComponent));
 	}
-}
+};
